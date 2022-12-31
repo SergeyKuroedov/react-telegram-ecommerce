@@ -1,0 +1,12 @@
+.product-item__img {
+    width: 80px;
+    height: 80px;
+}
+
+.product-item {
+    text-align: center;
+}
+
+.product-item__price {
+    margin-bottom: 10px;
+}
