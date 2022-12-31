@@ -1,8 +1,15 @@
 .button {
-    padding: 10px 15px;
-    font-size: 14px;
-    border-radius: 15px;
-    background-color: #fff;
-    cursor: pointer;
+  border: none;
+  border: 1px solid #fff;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 15px;
+  
+  background-color: #a9c9ff;
+  background-image: linear-gradient(180deg, #a9c9ff 0%, #ffbbec 100%);
+  cursor: pointer;
+}
 
+.button:active {
+    transform: translateY(2px);
 }

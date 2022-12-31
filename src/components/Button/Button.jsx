@@ -2,7 +2,7 @@ import './Button.css'
 
 function Button() {
     return ( 
-        <button className="button">Кнопка</button>
+        <button className="button">Добавить</button>
      );
 }
 

@@ -5,8 +5,18 @@
 
 .product-item {
     text-align: center;
+    width: calc(100% / 3 - 5px);
+    margin-left: 4px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    height: 167px;
 }
 
 .product-item__price {
     margin-bottom: 10px;
+    font-size: 11px;
+}
+
+.product-item__title {
+    font-size: 12px;
 }

@@ -9,7 +9,7 @@ function ProductItem() {
         src="https://www.kraftwerk.at/app/uploads/fly-images/962/reference-img-worlds-of-adventure-park-4-1920x9999.jpg"
         alt=""
       />
-      <h2>Название товара</h2>
+      <h2 className="product-item__title">Название товара</h2>
       <p className="product-item__price">Цена: 100</p>
       <Button />
     </div>
