@@ -1,0 +1,45 @@
+.header {
+    border-bottom: 1px solid rgb(226, 223, 223);
+    margin-bottom: 20px;
+    
+}
+
+.header__button-cart {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header__button {
+  min-width: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.header__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.header__items li:last-child {
+  margin-left: 10px;
+  border-left: 1px solid #fff;
+}
+
+.header__count {
+    margin-left: 5px;
+}
+
+.header__item {
+  display: flex;
+  align-items: center;
+}
+
+.header__item span {
+  margin-left: 10px;
+}
+
