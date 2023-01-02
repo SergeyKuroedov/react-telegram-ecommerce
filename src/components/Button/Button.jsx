@@ -1,8 +1,8 @@
 import './Button.css'
 
-function Button() {
+function Button({children, onAdd, className}) {
     return ( 
-        <button className="button">Добавить</button>
+        <button onClick={onAdd} className={`button ${className}`}>{children}</button>
      );
 }
 
